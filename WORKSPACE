@@ -9,9 +9,9 @@ http_archive(
 
 http_archive(
     name = "com_github_nelhage_rules_boost",
-    url = "https://github.com/nelhage/rules_boost/archive/135d46b4c9423ee7d494c78a21ff621bc73c12f3.tar.gz",
-    sha256 = "3651f5dda0f7296e4cecafacc7f9d1f274be0fd64e30bebd74e28ffba28fe77f",
-    strip_prefix = "rules_boost-135d46b4c9423ee7d494c78a21ff621bc73c12f3",
+    url = "https://github.com/nelhage/rules_boost/archive/fbac9be7640ecc0fab075233d394f08f1a37e449.tar.gz",
+    sha256 = "1c2bdba583597b27da6b3ac7264ed4a16cf20a57dd26462cb612a84528162e20",
+    strip_prefix = "rules_boost-fbac9be7640ecc0fab075233d394f08f1a37e449",
 )
 load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_deps")
 boost_deps()
